@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4-sol-md-12">
+                <img class="imagi" src="img/UNDAY.jpg" alt="">
+    
+  
+    
+
+    
+                 <div class="bot">
+        
+        <p id="saludo"></p>
+        <script>
+            function saludar(UNDAY) {
+              return "Hola" + UNDAY + "!";
+            }
+            var nombre = "Unday";
+            var mensaje = saludar(nombre);
+            var saludoElemento = document.getElementById("saludo");
+            saludoElemento.textContent = mensaje;
+          </script>
+          <br>
+          <div class="container">
+             <h4><p> <b><ins>Procedencia de Unday:</ins></b>  El nick Unday, es el que uso tanto en Twitter como en Twitch 
+                 La verdad es que me lo inventé cuando estaba dándome de alta en Twitch
+                 No sabía que poner y de repente se me ocurrió UNDAYSIDER, aunque todas las personas
+                 a quienes sigo me llaman siempre Unday, por lo que SIDER dejó de existir, (bueno vale
+                 para MindiCool no, pues me llama SIDER)</p>
+        </h4>
+          </div>
+         
+       <br>
+    </div>
+    <div>
+      <button class="b5" id="PRESENTACION">PRESENTACION</button>
+    </div>
+    <br>
+    <div>
+        <button class="b1" id="CV2.0">CV2.0</button>
+        <button class="b2" id="aficiones">AFICIONES</button>
+        <button class="b3" id="imagenes">IMAGENES</button>
+        <button class="b4" id="redessociales">REDES SOCIALES </button>
+        
+        <script>
+            // Obtener los elementos de los botones
+            const boton1 = document.getElementById("CV2.0");
+            const boton2 = document.getElementById("aficiones");
+            const boton3 = document.getElementById("imagenes");
+            const boton4 = document.getElementById("redessociales");
+            const boton5 = document.getElementById("PRESENTACION");
+            
+            // Añadir un event listener para cada botón
+            boton1.addEventListener("click", function() {
+              window.location.href = "CV2.0/index.html";
+            });
+            
+            boton2.addEventListener("click", function() {
+              window.location.href = "aficiones/index.html";
+            });
+
+            boton3.addEventListener("click", function() {
+              window.location.href = "imagenes/imagenes.html";
+            });
+
+            boton4.addEventListener("click", function() {
+              window.location.href = "redessociales/redessociales.html";
+            });
+
+            boton5.addEventListener("click", function() {
+              window.location.href = "PRESENTACION/index.html";
+            });
+
+
+
+          </script>
+        
+    </div>
+  
+    
+            </div>
+
+        </div>
+
+    </div>
+    
+
+
+   
+       
+      
+  
+    
+
+    
+  
+    
+
+</body>
+</html>

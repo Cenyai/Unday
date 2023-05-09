@@ -51,6 +51,7 @@
       <button class="b3" id="imagenes">IMAGENES</button>
       <button class="b4" id="redessociales">REDES SOCIALES </button>
       <button class="b6" id="videojuegos">VIDEOJUEGOS </button>
+      <button class="b7" id="amistades">AMISTADES </button>
 
       <script>
         // Obtener los elementos de los botones
@@ -60,6 +61,7 @@
         const boton4 = document.getElementById("redessociales");
         const boton5 = document.getElementById("PRESENTACION");
         const boton6 = document.getElementById("videojuegos");
+        const boton7 = document.getElementById("amistades");
 
         // Añadir un event listener para cada botón
         boton1.addEventListener("click", function () {
@@ -84,6 +86,10 @@
 
         boton6.addEventListener("click", function () {
           window.location.href = "videojuegos";
+        });
+
+        boton7.addEventListener("click", function () {
+          window.location.href = "amistades";
         });
 
 
